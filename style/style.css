@@ -300,5 +300,7 @@ header .navigation {
     font-size: 1em;
 }
 
-
+.row {
+    padding-top: 1em;
+}
 
