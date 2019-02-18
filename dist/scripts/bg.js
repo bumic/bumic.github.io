@@ -86,15 +86,28 @@ var makeBackgroundFor = function makeBackgroundFor(elements) {
 
 makeBackgroundFor(["#home", "#about-pic", "#news-pic", "#members-pic", "#team-pic", "#research-pic"]);
 
+var changeMargins = function() {
+	var header_height = document.body.children[0].getBoundingClientRect().height;
+	var content = document.getElementsByClassName("content-section");
+	for (var i = 0; i < content.length; i++) {
+		content[i].style.marginTop = -(header_height-1) + "px";
+		content[i].style.paddingTop = header_height + "px";
+	}
+}
+window.onresize = changeMargins
+window.onload = changeMargins
+
 // One for the nav bar fading in
-
-
 window.addEventListener("scroll", function () {
-    if (window.scrollY > 800) {
+	// might need more optimization
+	var end = home.getBoundingClientRect().height - document.body.children[0].getBoundingClientRect().height;
+    var location = window.scrollY;
+    if (location > end) {
         // Make this transition to fade in not abruptly does this.
         $("#navbar").css("background-color", "rgba(255,255,255,0.96)");
     } else {
-        $("#navbar").css("background-color", "rgba(255,255,255,0)");
+    	var alpha = location / end * 0.96
+        $("#navbar").css("background-color", "rgba(255,255,255,"+alpha+")");
     }
 });
 //# sourceMappingURL=bg.js.map

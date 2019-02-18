@@ -28,15 +28,21 @@
 
 <body>
     <header class="container-fluid">
-        <div class="wrapper" id="navbar">
-            <div id="dummy-div"></div>
-            <div id="menu-section">
+        <div class="wrapper" id="navbar" style="padding-bottom: 0px;">
+            <div id="logo-section" class="col-md-2">
+                <div id="logo-image">
+                    <a href="#">
+                        <img src="image/logo/MIC Logo@4x-8.png">
+                    </a>
+                </div>
+            </div>
+            <div id="menu-section" class="col-md-8">
                 <ul class="nav navigation" id="menu">
                     <li class="nav-item">
                         <a href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#news">NEWS</a>
+                        <a href="#news">EVENTS</a>
                     </li>
                     <li class="nav-item">
                         <a href="#members">MEMBERS</a>
@@ -52,7 +58,7 @@
                     </li>
                 </ul>
             </div>
-            <div id="social_section">
+            <div id="social-section" class="col-md-2">
                 <div id="fb-icon">
                     <a href="https://www.facebook.com/groups/1017831178363028/?ref=bookmarks">
                         <img src="image/icons/fb.png">
@@ -112,101 +118,66 @@
             <h1 align="center">
                 Events
             </h1>
-            <div class="row calendar">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h3 align="center"></h3>
-                    <ul class="workshops">
-                        <li class="workshop">
-                            <b>Society and Machine Intelligence Discussion</b>
-                            <p>A bi-weekly discussion about the societal and economic impacts of machine intelligence to build
-                                public awareness for the impacts of machine intelligence and to relay the moral responsibility
-                                we have as machine intelligence engineers and research scientists to ensure that the technology
-                                we develop is used to benefit all for a more hopeful future.
-                            </p>
-                            <em>Location: Hariri Institute Seminar Room</em>
-                            <br>
-                            <em>Date/Time: Tuesdays, 6:00 PM (bi-weekly starting 1.30.2018)</em>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h3 align="center"></h3>
-                    <ul class="workshops">
-                        <li class="workshop">
-                            <b>TensorFlow Workshop Spring 2018</b>
-                            <p>This workshop covers the fundamentals of Google's TensorFlow machine learning framework. In this
-                                series, you'll build from basic concepts to eventually working on an actual project implementation
-                            </p>
-                            <em>Location: Hariri Institute Seminar Room</em>
-                            <br>
-                            <em>Date/Time: Tuesdays, 6:30 PM (bi-weekly starting 2.21.2018)</em>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h3 align="center"></h3>
-                    <ul class="workshops">
-                        <li class="workshop">
-                            <b>Fundamentals of Deep Learning Fall 2017</b>
-                            <p>
-                                Seminar series on the fundamentals of deep learning theory and application. Topics: Machine Intelligence, Gradient-Based
-                                Learning, Introduction to Neural Networks, Regularization, Compositional Data, Transfer Learning,
-                                Sequential Data, Deep Reinforcement Learning, Unsupervised Learning, Neural Style Transfer
-                            </p>
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h3 align="center"></h3>
-                    <ul class="workshops">
-                        <li class="workshop">
-                            <b>Research Paper Discussions</b>
-                            <p>
-                                Weekly student-led presentation and discussion covering recent research papers. Checkout our
-                                <a style="color:#169BE1" href='https://github.com/bumic/summaries'>content on GitHub</a>.
-                            </p>
-                    </ul>
-                </div>
-            </div>
-        </div>
+
+			<div class="row-calendar">
+				<div id="post-area" class="col span_9 col_last">
+					<div id="fws_5b8d8dd841b1f" data-midnight="dark" data-bg-mobile-hidden="" class="wpb_row vc_row-fluid vc_row standard_section   " style="padding-top: 0px; padding-bottom: 0px; ">
+						<div class="row-bg-wrap"> 
+							<div class="row-bg   " style="" data-color_overlay="" data-color_overlay_2="" data-gradient_direction="" data-overlay_strength="0.3" data-enable_gradient="false">
+							</div> 
+						</div>
+						<div class="col span_12 dark left">
+							<div class="vc_col-sm-12 wpb_column column_container col no-extra-padding instance-0" data-bg-cover="" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-hover-bg="" data-hover-bg-opacity="1" data-animation="" data-delay="0">
+								<div class="wpb_wrapper">
+									<div class="wpb_text_column wpb_content_element ">
+										<div class="wpb_wrapper">
+											<iframe src="https://calendar.google.com/calendar/embed?src=bumic%40bu.edu&amp;ctz=America/New_York" style="border: 0px; opacity: 1; visibility: visible;" width="907" height="600" frameborder="0" scrolling="no">
+											</iframe>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
         <div id="news-pic" class="parallax-section"></div>
 
         <!-- Members section -->
 
-        <div id="members" class="content_section">
-            <div class="content-section">
-                <h1 style="text-align: center;">Members</h1>
-                <div class="members">
-                    <div v-for="m in ms" class="member-card flip-container">
-                        <div class="flipper">
+        <div id="members" class="content-section">
+            <h1 style="text-align: center;">Executive Board Members</h1>
+            <div class="members">
+                <div v-for="m in ms" class="member-card flip-container">
+                    <div class="flipper">
 
-                            <div class="front">
-                                <img v-bind:src="m.pic" class="card-img-top" />
-                                <div class="member-name">
-                                    <h5>{{m.name}}</h5>
-                                    <h6>
-                                        <em>{{m.title}}</em>
-                                    </h6>
+                        <div class="front">
+                            <img v-bind:src="m.pic" class="card-img-top" />
+                            <div class="member-name">
+                                <h5>{{m.name}}</h5>
+                                <h6>
+                                    <em>{{m.title}}</em>
+                                </h6>
 
-                                </div>
                             </div>
+                        </div>
 
-                            <div class="back">
-                                <div class="content">
-                                    <p class="bio"><b>{{m.year}}</b></p>
-                                    <p class="bio">{{m.bio}}</p>
-                                    <p class="bio">
-                                        <b>Fun fact:</b> {{m.funFact}}</p>
-                                    <p class="bio">
-                                        <b>Website:</b>
-                                        <a v-bind:href="m.link">{{m.link}}</a>
-                                    </p>
-                                </div>
+                        <div class="back">
+                            <div class="content">
+                                <p class="bio"><b>{{m.year}}</b></p>
+                                <p class="bio">{{m.bio}}</p>
+                                <p class="bio">
+                                    <b>Fun fact:</b> {{m.funFact}}</p>
+                                <p class="bio">
+                                    <b>Website:</b>
+                                    <a v-bind:href="m.link">{{m.link}}</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
 

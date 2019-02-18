@@ -1,16 +1,6 @@
 {
 	"members": [
 		{
-			"first_name": "Justin",
-			"last_name": "Chen",
-			"year": "B.A. 2014, Computer Science; M.S. 2018, Computer Science",
-			"bio": "I want to create a comic-book inspired future. Research interests: AGI, Deep Learning, Democratizing AI, Distributed Learning, Generative Modeling, Manifold Learning, Metaheuristics, Meta Learning, Neuroevolution, Reinforcement Learning",
-			"fun_fact": "I've been practicing parkour since 2005 and created the website Parkour Theory.",
-			"pic": "justin_chen.jpg",
-			"link": "http://cs-people.bu.edu/chenjus/",
-			"title": "Alumnus"
-		},
-		{
 			"first_name": "Rachel",
 			"last_name": "Manzelli",
 			"year": "B.S. 2019, Computer Engineering",
@@ -18,47 +8,7 @@
 			"fun_fact": "I'm a Latin dancer.",
 			"pic": "rachel_manzelli.jpg",
 			"link": "https://github.com/manzelli",
-			"title": "Co-President"
-		},
-		{
-			"first_name": "Tyrone",
-			"last_name": "Hou",
-			"year": "B.A. 2018, Computer Science",
-			"bio": "I've always been interested in science fiction (especially Isaac Asimov's works) and exploring human intelligence in general, and I'm excited to see where the future with machine learning and AI will take us!",
-			"fun_fact": "In high school, I once played in a three man jazz combo at a local ice cream shop and earned $80 that night.",
-			"pic": "tyrone_hou.jpg",
-			"link": "https://github.com/tyronehou",
-			"title": "Co-President"
-		},
-		{
-			"first_name": "Chloe",
-			"last_name": "Kaubisch",
-			"year": "B.A. 2020, Computer Science",
-			"bio": "I'm an computer science undergraduate from New York. I was introduced to machine learning a few years ago and I'm now primarily interested in natural language processing and computer vision.",
-			"fun_fact": "Too many fun facts to list.",
-			"pic": "chloe_kaubisch.jpg",
-			"link": "https://github.com/chloenayon",
-			"title": "Treasurer"
-		},
-		{
-			"first_name": "Jinghu",
-			"last_name": "Lei",
-			"year": "B.A. 2020, Computer Science",
-			"bio": "Interested in ml because of potential possibilities. Want to be involved in the forefront of innovation.",
-			"fun_fact": "Sucks at parkour, trying to learn basketball, get me bubble tea and ill love u for life <3",
-			"pic": "jinghu_lei.jpg",
-			"link": "https://github.com/jinghul",
-			"title": "Social Media"
-		},
-		{
-			"first_name": "Charles",
-			"last_name": "Ma",
-			"year": "B.A. 2020, Computer Science, and Finance",
-			"bio": "As the only business student on the e-board, I come from a non-traditional background in the context of MIC. However, I foster a keen interest in the tech sector (currently quite ML-oriented), and believe to understand it to the fullest, one should immerse themselves in the technical side in addition to macro-trends.",
-			"fun_fact": "I fence sabre, play ball, lift recreationally, and play piano.",
-			"pic": "charles_ma.jpg",
-			"link": "https://github.com/charlesma4",
-			"title": "Corporate Relations"
+			"title": ""
 		},
 		{
 			"first_name": "Duy",
@@ -71,44 +21,64 @@
 			"title": ""
 		},
 		{
-			"first_name": "Tammy",
-			"last_name": "Qiu",
-			"year": "B.A. 2019, Computer Science and Fine Art",
-			"bio": "My name is Tammy Qiu and I am a junior majoring in Graphic Design and Computer Science. I am interested in learning about Artificial Intelligence because I believe that simulating intelligence will help us better understand our own intelligence as well as consciousness.",
-			"fun_fact": "In my free time, I love to paint, read and dance.",
-			"pic": "tammy_qiu.jpg",
-			"title": "Alumna",
-			"link":"https://tqiu.myportfolio.com/"
-		},
-		{
-			"first_name": "Rex",
-			"last_name": "Wang",
-			"year": "B.S. 2015, Mathematics; M.S. 2017, Computer Science",
-			"bio": "I earned my B.S in Mathematics from Southeast University, and got M.S degree in Computer Science from Boston University. My research interests focus on deep learning, graphical models and statistical learning. Starting in 2017, I will work as a software engineer at Broad Institute of MIT and Harvard.",
-			"fun_fact": "I like traveling and hope to travel all over the world.(30% finished) I also enjoy hiking, skiing, photography and flying drones.",
-			"pic": "rex_wang.jpg",
-			"link": "https://github.com/rexwangcc",
-			"title": "Alumnus"
-		}, 
-		{
 			"first_name": "Julius",
 			"last_name": "Frost",
-			"year": "B.A. 2021, Computer Science",
-			"bio": "My time is dynamically allocated in academics, projects, and machine learning. My goal is to become part of the forefront of AI research, and the eventual creation of AGI. In that regard, I believe humanity will never become irrelevant and that our species will survive a singularity.",
-			"fun_fact": "I was in a rock band that won a city wide competition in South Korea. I also love parkour, skiing, and playing guitar.",
+			"year": "B.A./M.S. 2021, Computer Science",
+			"bio": "Creating AI seems like an incredible power to have and its spread should be well controlled but accessible to everyone. I am interested in researching machine learning methods that may lead to artificial general intelligence. At the moment this left me with a great interest in reinforcement learning. Studying AI is really rewarding for me because there is an unlimited supply of questions and ideas to try. So, it is my ambition to be at the forefront of AI technology.",
+			"fun_fact": "I was in a movie and a rock band.",
 			"link": "https://github.com/juliusfrost",
 			"pic": "julius_frost.jpg",
-			"title":"Web Developer"
+			"title":"Co-President"
 		},
 		{
 			"first_name": "Devin",
 			"last_name": "de Hueck",
 			"year": "B.A. 2021, Mathematics and Computer Science",
-			"bio": "AI will touch every aspect of our society sooner than people think. Because of this, I believe it is necessary to work towards ensuring this future benefits everyone. With this in mind, my research interests are focused on multitask networks, neuroevolution, and transfer learning. Within MIC, I hope to help advance our mission of democratizing AI and growing a diverse community of researchers.",
+			"bio": "AI will touch every aspect of our society sooner than people think. Because of this, I believe it is necessary to work towards ensuring this future benefits everyone. With this in mind, my research interests are focused on explainable ML, GANs, and transfer learning. Within MIC, I hope to help advance our mission of democratizing AI and growing a diverse community of researchers.",
 			"fun_fact": "All of them.",
 			"link":"https://github.com/ddehueck",
 			"pic":"devin_de_hueck.jpg",
-			"title":"Technical Lead"
+			"title":"Co-President"
+		},
+		{
+			"first_name": "Zack",
+			"last_name": "Zhang",
+			"year": "B.A. 2021, Mathematics and Computer Science",
+			"bio": "I am interested in ML because it allows us to create powerful agents that make our lives fundamentally more efficient. I am interested in NLP.",
+			"fun_fact": "I am a certified cook.",
+			"link":"https://zacklight.com",
+			"pic":"zack_zhang.jpg",
+			"title":"Web Developer"
+		},
+		{
+			"first_name": "Deren",
+			"last_name": "Singh",
+			"year": "B.A. 2021, Computer Science",
+			"bio": "AI will touch every aspect of our society sooner than people think. Because of this, I believe it is necessary to work towards ensuring this future benefits everyone. With this in mind, my research interests are focused on explainable ML, GANs, and transfer learning. Within MIC, I hope to help advance our mission of democratizing AI and growing a diverse community of researchers.",
+			"fun_fact": "I enjoy flying drones.",
+			"link":"www.github.com/derens99",
+			"pic":"deren_singh.jpg",
+			"title":""
+		},
+		{
+			"first_name": "Sofia",
+			"last_name": "Zalaquett",
+			"year": "B.A. 2021, International Relations",
+			"bio": "Hi, my name is Sofia, and I am sophomore at BU studying International Relations. I am interested in ML and AI because of the impact it has on society. Every day we rely more and more on technology to solve the world's problems; therefore I believe its crucial for everyone to know what is it capable of, where is it going, and ask ourselves where do we want it to go. I am particularly passionate about Reinforcement Learning, as it involves more ethical questions like its application on self-driving cars.",
+			"fun_fact": "I am from Chile.",
+			"link":"https://www.linkedin.com/in/sofiazalaquett/",
+			"pic":"sofia_zalaquett.jpg",
+			"title":"Treasurer"
+		},
+		{
+			"first_name": "Curtis",
+			"last_name": "Mason",
+			"year": "B.A./M.S. 2021, Computer Science",
+			"bio": "My first exposure to machine learning was through a hackathon. My group of friends introduced me to an academic paper during high school called Cycle-Ganz which allowed people to apply artistic filters onto images through style transformations/object transfigurations. Ever since, I've been embedding ML techniques into many of my projects ranging from fintech trading problems to other automated tasks.",
+			"fun_fact": "I used to regularly make profits selling candy back in early elementary school.",
+			"link":"www.github.com/cumason123",
+			"pic":"curtis_mason.jpg",
+			"title":"Web Developer"
 		}
 	],
 	"advisors": [
