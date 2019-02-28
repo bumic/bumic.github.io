@@ -31,6 +31,16 @@
 			"title":"Co-President"
 		},
 		{
+			"first_name": "Jennifer",
+			"last_name": "Kim",
+			"year": "B.A. 2022, Computer Science and Linguistics Major, Music Performance Minor (Sub-concentration - Viola)",
+			"bio": "I intend on studying the intersection of computer science so that I can apply method from AI and ML fields to my ambitious goal of creating platforms that will allow for better communication and translation across both human and machine languages. I am currently most interested in NLP.",
+			"fun_fact": "I have traveled to 19 countries so far, and the average time I lived in one city is 1.6 years.",
+			"link": "https://github.com/jennkimerson",
+			"pic": "Jennifer_Kim.jpg",
+			"title":""
+		},
+		{
 			"first_name": "Devin",
 			"last_name": "de Hueck",
 			"year": "B.A. 2021, Mathematics and Computer Science",
@@ -48,7 +58,7 @@
 			"fun_fact": "I am a certified cook.",
 			"link":"https://zacklight.com",
 			"pic":"zack_zhang.jpg",
-			"title":""
+			"title":"Software Engineer"
 		},
 		{
 			"first_name": "Deren",
@@ -58,7 +68,7 @@
 			"fun_fact": "I enjoy flying drones.",
 			"link":"www.github.com/derens99",
 			"pic":"deren_singh.jpg",
-			"title":""
+			"title":"Web Developer"
 		},
 		{
 			"first_name": "Sofia",
@@ -78,7 +88,7 @@
 			"fun_fact": "I used to regularly make profits selling candy back in early elementary school.",
 			"link":"www.github.com/cumason123",
 			"pic":"curtis_mason.jpg",
-			"title":""
+			"title":"Software Engineer"
 		}
 	],
 	"advisors": [
