@@ -7,7 +7,7 @@
 .slideshow img {
 	width: 200px;
 	padding: 0 9px;
-	margin: 0 20px;
+	margin: 0 auto;
 }
 
 .slideshow p {
@@ -16,9 +16,6 @@
 
 .slideshow > div {
 	overflow: hidden;
-}
-
-.slick-slide {
 }
 
 .box  {
