@@ -11,18 +11,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/normalize.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/members.css" />
     <link rel="stylesheet" href="style/main.css" />
     <link rel="icon" type="image/png" href="image/logo/bumic-favicon-transp-64.png" />
     <link rel="shortcut icon" type="image/png" href="image/logo/bumic-favicon-transp-64.png" />
-  
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="style/members.css">
-    
-
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="scripts/members.js"></script>
 </head>
 
 <body>
@@ -116,7 +115,9 @@
                 </p>
             </div>
         </div>
+
         <div id="about-pic" class="parallax-section"></div>
+
         <!-- Begin Mailchimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
         <style type="text/css">
@@ -125,146 +126,96 @@
                We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
         </style>
 
-        <div class="row">
-            <!--calendar part-->
-            <div id="news" class="col col-lg-10 col-md-10 col-sm-12">
-                <h1 align="center">
-                    Events
-                </h1>
-                <div class="row-calendar">
-                    <div id="post-area" class="col span_9 col_last">
-                        <div id="fws_5b8d8dd841b1f" data-midnight="dark" data-bg-mobile-hidden="" class="wpb_row vc_row-fluid vc_row standard_section   " style="padding-top: 0px; padding-bottom: 0px; ">
-                            <div class="row-bg-wrap">
-                                <div class="row-bg   " style="" data-color_overlay="" data-color_overlay_2="" data-gradient_direction="" data-overlay_strength="0.3" data-enable_gradient="false">
-                                </div>
-                            </div>
-                            <div class="col span_12 dark left">
-                                <div class="vc_col-sm-12 wpb_column column_container col no-extra-padding instance-0" data-bg-cover="" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-hover-bg="" data-hover-bg-opacity="1" data-animation="" data-delay="0">
-                                    <div class="wpb_wrapper">
-                                        <div class="wpb_text_column wpb_content_element ">
-                                            <div class="wpb_wrapper">
-                                                <iframe src="https://calendar.google.com/calendar/embed?src=bumic%40bu.edu&amp;ctz=America/New_York" style="border: 0px; opacity: 1; visibility: visible;" width="907" height="600" frameborder="0" scrolling="no">
-                                                </iframe>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="content-section">
+            <h1 align="center">
+                Events
+            </h1>
+            <div id="news" class="col col-lg-10 col-md-10 col-sm-12 wpb_wrapper responsiveCal">
+                <iframe src="https://calendar.google.com/calendar/embed?src=bumic%40bu.edu&amp;ctz=America/New_York" style="border: 0px; opacity: 1; visibility: visible;" width="907" height="600" frameborder="0" scrolling="no">
+                </iframe>
             </div>
-
-            <!--signup part-->
-            <div id="mc_embed_signup" class="col">
-                <h1 align="center">
-                    Mailing List
-                </h1>
-                <form action="https://mic.us16.list-manage.com/subscribe/post?u=954fb58fbeaf5fc169f888434&amp;id=37eda6e2c9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <h2>Subscribe to our mailing list</h2>
-                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                        <div class="mc-field-group">
-                            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-                            </label>
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-FNAME">First Name  <span class="asterisk">*</span>
-                            </label>
-                            <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
-                            </label>
-                            <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-YEAR">Year </label>
-                            <select name="YEAR" class="" id="mce-YEAR">
-                                <option value=""></option>
-                                <option value="Freshman">Freshman</option>
-                                <option value="Sophomore">Sophomore</option>
-                                <option value="Junior">Junior</option>
-                                <option value="Senior">Senior</option>
-                                <option value="Graduated Student">Graduated Student</option>
-                                <option value="Other">Other</option>
-                            </select>
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-MAJOR">Major </label>
-                            <input type="text" value="" name="MAJOR" class="" id="mce-MAJOR">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-COLLEGE">College (BU) </label>
-                            <input type="text" value="" name="COLLEGE" class="" id="mce-COLLEGE">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-GENDER">Gender </label>
-                            <select name="GENDER" class="" id="mce-GENDER">
-                                <option value=""></option>
-                                <option value="Male">Male</option>
-                                <option value="Female">Female</option>
-                                <option value="Prefer not to say">Prefer not to say</option>
-                            </select>
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_954fb58fbeaf5fc169f888434_37eda6e2c9" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                    </div>
-                </form>
-            </div>
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='YEAR';ftypes[3]='dropdown';fnames[4]='MAJOR';ftypes[4]='text';fnames[5]='COLLEGE';ftypes[5]='text';fnames[6]='GENDER';ftypes[6]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
         </div>
+
+        <div id="calender-pic" class="parallax-section"></div>
+
+        <div id="mc_embed_signup" class="col ">
+            <h1 align="center">
+                Mailing List
+            </h1>
+            <form action="https://mic.us16.list-manage.com/subscribe/post?u=954fb58fbeaf5fc169f888434&amp;id=37eda6e2c9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                    <h2>Subscribe to our mailing list</h2>
+                    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                    <div class="mc-field-group">
+                        <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                        </label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-FNAME">First Name  <span class="asterisk">*</span>
+                        </label>
+                        <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
+                        </label>
+                        <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-YEAR">Year </label>
+                        <select name="YEAR" class="" id="mce-YEAR">
+                            <option value=""></option>
+                            <option value="Freshman">Freshman</option>
+                            <option value="Sophomore">Sophomore</option>
+                            <option value="Junior">Junior</option>
+                            <option value="Senior">Senior</option>
+                            <option value="Graduated Student">Graduated Student</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-MAJOR">Major </label>
+                        <input type="text" value="" name="MAJOR" class="" id="mce-MAJOR">
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-COLLEGE">College (BU) </label>
+                        <input type="text" value="" name="COLLEGE" class="" id="mce-COLLEGE">
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-GENDER">Gender </label>
+                        <select name="GENDER" class="" id="mce-GENDER">
+                            <option value=""></option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Prefer not to say">Prefer not to say</option>
+                        </select>
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_954fb58fbeaf5fc169f888434_37eda6e2c9" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+            </form>
+        </div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='YEAR';ftypes[3]='dropdown';fnames[4]='MAJOR';ftypes[4]='text';fnames[5]='COLLEGE';ftypes[5]='text';fnames[6]='GENDER';ftypes[6]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
         <div id="slack" class="content-section">
             <h1 align="center">
-                <a href="https://join.slack.com/t/bumic/shared_invite/enQtNTQwODA0MzAzMzMyLTg5NjdiZTlmM2Y2YTA5ZmY3ZmNmYmU4MjZmYThjYjYxMjkyNWRhYmFhOGNiODJkZWM0NDhiODFjNDVhY2QwYjA">Join Our Slack Channel!</a>
+                <a href="https://join.slack.com/t/bumic/shared_invite/enQtNTQwODA0MzAzMzMyLTg5NjdiZTlmM2Y2YTA5ZmY3ZmNmYmU4MjZmYThjYjYxMjkyNWRhYmFhOGNiODJkZWM0NDhiODFjNDVhY2QwYjA">Join Our Slack Channel Here!</a>
             </h1>
 
         </div>
         <div id="news-pic" class="parallax-section"></div>
 
         <!-- Members section -->
-
-        <div id="members" class="content-section">
+        <div id="members" >
             <h1 style="text-align: center;">Executive Board Members</h1>
-            <div class="members">
-                <div v-for="m in ms" class="member-card flip-container">
-                    <div class="flipper">
-
-                        <div class="front">
-                            <img v-bind:src="m.pic" class="card-img-top" />
-                            <div class="member-name">
-                                <h5>{{m.name}}</h5>
-                                <h6>
-                                    <em>{{m.title}}</em>
-                                </h6>
-
-                            </div>
-                        </div>
-
-                        <div class="back">
-                            <div class="content">
-                                <p class="bio"><b>{{m.year}}</b></p>
-                                <p class="bio">{{m.bio}}</p>
-                                <p class="bio">
-                                    <b>Fun fact:</b> {{m.funFact}}</p>
-                                <p class="bio">
-                                    <b>Website:</b>
-                                    <a v-bind:href="m.link">{{m.link}}</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="slideshow slider">
             </div>
         </div>
-
         <div id="members-pic" class="parallax-section"></div>
-
         <!-- Researches section -->
         <div id="research" class="content-section">
             <h1 align="center">
@@ -375,10 +326,6 @@
             </div>
         </div>
     </div>
-
-
-    <script src="https://unpkg.com/vue"></script>
-    <script src="dist/scripts/members.js"></script>
 
     <script>
         (function (i, s, o, g, r, a, m) {

@@ -84,7 +84,7 @@ var makeBackgroundFor = function makeBackgroundFor(elements) {
     });
 };
 
-makeBackgroundFor(["#home", "#about-pic", "#news-pic", "#members-pic", "#team-pic", "#research-pic"]);
+makeBackgroundFor(["#home", "#about-pic", "#calender-pic", "#news-pic", "#members-pic", "#team-pic", "#research-pic"]);
 
 var changeMargins = function() {
 	var header_height = document.body.children[0].getBoundingClientRect().height;
