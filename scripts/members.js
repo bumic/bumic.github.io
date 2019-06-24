@@ -12,7 +12,7 @@ $(document).ready(function(){
             mhtml += '<p>'+val.title+'</p>';
             mhtml += '<br/>';
 
-            mhtml += '<p><strong>Fan Fact: </strong>'+val.fun_fact+'</p></div>';
+            mhtml += '<p><strong>Fun Fact: </strong>'+val.fun_fact+'</p></div>';
             mhtml += '<div class="box"><span><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus other" aria-hidden="true"></i></span>';
             mhtml += '<span>&nbsp;Biography</span></div>';
             mhtml += '<p class="draw">'+val.bio+'</p>';
