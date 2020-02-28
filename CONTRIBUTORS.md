@@ -1,4 +1,4 @@
 Curtis Mason, cumason@bu.edu
-THISPERSONDOESNOTEXIST, RANDOM@GMAIL>COM
-DELETE MEEEE
+abc
+abc
 Julius Frost, juliusf@bu.edu
