@@ -1,4 +1,4 @@
 Curtis Mason, cumason@bu.edu
 abc
-abc
+Samarah Uriarte, samcu@bu.edu
 Julius Frost, juliusf@bu.edu
