@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>BUMIC's Simple Site.</title>
+        <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
+        <meta name="description" content="BUMIC's Simple Website.">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <!-- Data Loading Scripts -->
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="data/test.js"></script>
+    </head>
+    <body>
+        <main>
+            <h1>What <br>__<br></h1>
+            <p>BUMIC's Simple Site</p>
+            
+            <h2>Test<br>__<br></h2>
+            <p id="test"><!-- Loaded from JS file --></p>
+            
+            <h2>Contact Us<br>__<br></h2>
+        </main>
+    </body>
+
+    <script type="text/javascript">
+      /*-----------------------------
+                 Test
+      -----------------------------*/
+      //sortByCreatedDate(test.data)
+      console.log(testingData)
+      let testData = testingData.data
+      addDataToTag("test", testData[0].key)
+    </script>
+
+</html>
