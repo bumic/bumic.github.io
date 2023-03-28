@@ -58,19 +58,14 @@
                         <a href="#teams">ADVISORS</a>
                     </li>
                     <li class="nav-item">
+                        <a href="#resources">RESOURCES</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#sponsors">SPONSORS</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a href="https://mic.bu.edu/cs200">CS200</a>
-		    </li> -->
                 </ul>
             </div>
             <div id="social-section" class="col-md-2">
-                <div id="fb-icon">
-                    <a href="https://www.facebook.com/groups/1017831178363028/?ref=bookmarks">
-                        <img src="image/icons/fb.png">
-                    </a>
-                </div>
                 <div id="github-icon">
                     <a href="https://github.com/bumic">
                         <img src="image/icons/github.png">
@@ -81,14 +76,14 @@
                         <img src="image/icons/mail.png">
                     </a>
                 </div>
-                <div id="medium-icon">
-                    <a href="https://medium.com/@bumic_">
-                        <img src="image/icons/medium.png">
+                <div id="instgram-icon">
+                    <a href="https://instagram.com/mic_boston_university?igshid=YmMyMTA2M2Y=">
+                        <img src="image/icons/instagram.png" width="22">
                     </a>
                 </div>
-                <div id="twitter-icon">
-                    <a href="https://twitter.com/@bumic_">
-                        <img src="image/icons/twitter.png">
+                <div id="slack-icon">
+                    <a href="https://join.slack.com/t/bumic/shared_invite/zt-1s2u7finp-fhE72ugFgAXq8k3K9aU1MQ">
+                        <img src="image/icons/slack.png" width="22">
                     </a>
                 </div>
             </div>
@@ -139,20 +134,33 @@
             </div>
         </div>
 
-        <div id="calender-pic" class="parallax-section"></div>
-        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='YEAR';ftypes[3]='dropdown';fnames[4]='MAJOR';ftypes[4]='text';fnames[5]='COLLEGE';ftypes[5]='text';fnames[6]='GENDER';ftypes[6]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!-- <div id="calender-pic" class="parallax-section"></div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='YEAR';ftypes[3]='dropdown';fnames[4]='MAJOR';ftypes[4]='text';fnames[5]='COLLEGE';ftypes[5]='text';fnames[6]='GENDER';ftypes[6]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
+        <div id="team-pic" class="parallax-section" style="background-image: url('../image/section/bg0.jpg')";></div>
+        
 
-
-        <div id="slack" class="content-section">
+        <!-- Resources section -->
+        <div id="resources" class="content-section">
             <h1 align="center">
-                <a href="https://join.slack.com/t/bumic/shared_invite/enQtNTQwODA0MzAzMzMyLTg5NjdiZTlmM2Y2YTA5ZmY3ZmNmYmU4MjZmYThjYjYxMjkyNWRhYmFhOGNiODJkZWM0NDhiODFjNDVhY2QwYjA"><img src="image/logo/slack.png" width="80" height="80">Join Our Slack Channel Here!</a>
+                RESOURCES
             </h1>
-
+            <div class="article row">
+                <p class="col-md-6" style="margin-right: 10px">Boston University Machine Intelligence Community is an organization focused on providing opportunities for
+                    undergraduate and graduate students to learn about machine intelligence in a community environment. As
+                    a brief history, MIC was founded as a research paper discussion group at MIT in 2016 after being inspired
+                    by the AlphaGo versus Lee Sedol match, and was brought to BU in April 2017.</p>
+                <p class="col-md-5" style="margin-left: 10px">
+                    We are a student-led research group sponsored by Boston University's Rafik B. Hariri Institute for Computing and Computational Science and Engineering, BU Software Application and Innovation Lab (SAIL), and BU Spark.
+                </p>
+            </div>
         </div>
-        <!-- <div id="news-pic" class="parallax-section"></div> -->
 
+        <div id="team-pic" class="parallax-section" style="background-image: url('../image/section/cds2.jpeg')";></div>
+        
+        <!-- <div id="news-pic" class="parallax-section"></div> -->
+        
         <!-- Members section -->
-<!--         <div id="members" >
+        <!--         <div id="members" >
             <h1 style="text-align: center;">Executive Board Members</h1>
             <div class="slideshow slider">
             </div>
@@ -163,7 +171,7 @@
             <h1 align="center">
                 RESEARCH
             </h1>
-
+            
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h4>Conditioning Deep Generative Raw Audio Models for Structured Automatic Music</h4>
@@ -179,26 +187,25 @@
                         a Long Short Term Memory network to learn the melodic structure of different styles of music, and
                         then use the unique symbolic generations from this model as a conditioning input to a WaveNet-based
                         raw audio generator, creating a model for automatic, novel music.</p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h4>Hypergraph Distributed Stochastic Gradient Descent</h4>
-                    <em><a>Justin Chen</a>, 2018</em>
-                    <p class="research-desc">
-                        To enable training of deep models on large datasets, learning algorithms must be distributed. Although current state-of-the-art can train on ImageNet in minutes, we push distributed gradient-based optimization
-                        to the extemes. We introduce a novel distributed hybrid, globally-asynchronous, locally-synchronous
-                        non-convex optimization algorithm for large-scale training. Nodes in the computation, which we refer
-                        to as peers, stochastically and independently organize into cliques that each compute a synchronous
-                        gradient step across different points in parameter space. The resultant communication topology forms
-                        a hypergraph over all peers. We call our algorithm Hypergraph Distributed Stochastic Gradient Descent.
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h4>Hypergraph Distributed Stochastic Gradient Descent</h4>
+                        <em><a>Justin Chen</a>, 2018</em>
+                        <p class="research-desc">
+                            To enable training of deep models on large datasets, learning algorithms must be distributed. Although current state-of-the-art can train on ImageNet in minutes, we push distributed gradient-based optimization
+                            to the extemes. We introduce a novel distributed hybrid, globally-asynchronous, locally-synchronous
+                            non-convex optimization algorithm for large-scale training. Nodes in the computation, which we refer
+                            to as peers, stochastically and independently organize into cliques that each compute a synchronous
+                            gradient step across different points in parameter space. The resultant communication topology forms
+                            a hypergraph over all peers. We call our algorithm Hypergraph Distributed Stochastic Gradient Descent.
                         Additionally, we developed a minimalist distributed gradient-based learning framework, <span style="font-style:italic">Simultaneous
                         Multi-Party Learning</span> (SMPL), pronounced <span style="font-size:0.875em">[sim-puh l]</span>.</p>
                 </div>
             </div>
-
+            
         </div>
-
-        <div id="research-pic" class="parallax-section"></div>
-
+        
+        <div id="team-pic" class="parallax-section" style="background-image: url('../image/section/cds.jpeg')";></div>
 
         <!-- Teams section -->
         <div id="teams" class="content-section">
@@ -221,10 +228,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
-        <div id="team-pic" class="parallax-section"></div>
-
+        
+        <div id="team-pic" class="parallax-section" style="background-image: url('../image/section/cds.jpeg')";></div>
 
         <!-- Sponsor section -->
         <div id="sponsors" class="content_section">
@@ -250,7 +256,7 @@
         <!-- Footer -->
         <div id="footer" class="row">
             <div class="col-lg-8 col-md-8 col-sm-12">
-                Boston University | 111 Cummington Mall, Boston MA 02215
+                Boston University | Center for Computing & Data Sciences, 665 Commonwealth Ave, Boston, MA 02215
             </div>
         </div>
     </div>
